@@ -1,0 +1,461 @@
+/**
+ * Pagination
+ */
+.free-images .page-navigation {
+    float: right;
+    margin-top: 1em;
+}
+
+.free-images .previous-page:before {
+    font: normal 20px/1 dashicons;
+    content: "\f341";
+    position: relative;
+}
+
+.free-images .previous-page,
+.free-images .next-page {
+    color: #b4b9be;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    text-align: center;
+}
+
+.free-images .next-page:before {
+    font: normal 20px/1 dashicons;
+    content: "\f345";
+    position: relative;
+}
+
+.free-images .page-navigation .page-count {
+    vertical-align: super;
+}
+
+.free-images .debug-info {
+    position: fixed;
+    right: 0;
+    top: 32px;
+    z-index: 10;
+    background: #32373c;
+    color: #fff;
+    padding: 9px 10px;
+}
+
+.free-images .debug-info th {
+    font-weight: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/**
+ * Header
+ */
+.free-images .wp-header a {
+    margin:3px 15px 5px 0;
+    font-size:12px;
+    line-height:1.7;
+    color:#555;
+    display:block;
+    float:left;
+    padding:9px 12px 6px;
+    border:1px solid #ccc;
+}
+.free-images .wp-header i {
+    display:block;
+    width:68px;
+    height:18px;
+    overflow:hidden;
+}
+.free-images .wp-header img {
+    width:94px;
+}
+
+/**
+ * Filters
+ */
+.free-images .search-form {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.free-images .search-form input {
+    font-size: 20px;
+    padding: 7px 17px;
+    width: 100%;
+    max-width: 500px;
+}
+.free-images .filter-categories {
+    margin-left: 1em;
+}
+.free-images .found-images {
+    vertical-align: super;
+    margin-left: 1em;
+}
+
+.found-images b {
+    text-transform: capitalize;
+}
+
+/**
+ * 
+ */
+.download {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    background: #0507075c;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.free-images .lightbox {
+    display: inline-block;
+}
+
+.free-images .mfp-title .download {
+    opacity: 1;
+    visibility: visible;
+}
+
+.free-images .image.downloading .download,
+.free-images .image.downloading .meta,
+.free-images .image:hover .download,
+.free-images .image:hover .meta {
+    opacity: 1;
+    visibility: visible;
+}
+.free-images .download,
+.free-images .meta {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s linear;
+}
+
+.free-images .inner {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.free-images .image {
+    width: 33.33%;
+    position: relative;
+}
+
+.free-images .image > img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.free-images .meta {
+    position: absolute;
+    bottom: 0;
+    background: #00000052;
+    right: 0;
+    left: 0;
+}
+
+.free-images .user-image-url {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.free-images .meta {
+    color: #fff;
+    font-size: 14px;
+}
+
+.free-images .activities {
+    float: right;
+}
+
+.free-images .activities .fa {
+    margin-right: 5px;
+}
+
+.free-images .activities > span {
+    margin-left: 10px;
+}
+
+.free-images span.activities {
+    top: 20px;
+    right: 20px;
+}
+
+.free-images .top-meta {
+    position: absolute;
+    top: -48px;
+    left: 5px;
+    right: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    background: #00000073;
+    text-align: right;
+    transition: all 0.3s linear;
+}
+
+.free-images .mfp-title .download {
+    opacity: 1;
+    visibility: visible;
+}
+
+.free-images .top-meta a,
+.free-images .top-meta > span {
+    margin-left: 1em;
+}
+
+.free-images .top-meta > span .fa {
+    margin-right: 5px;
+}
+.free-images .top-meta .external {
+    color: #fff;
+    outline:  none;
+    text-decoration:  none;
+    border: none;
+    margin-left: 20px;
+}
+
+.free-images .user-image-url {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.free-images .lightbox img {
+        width: 100%;
+        vertical-align: middle;
+}
+
+.free-images .image {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/*.free-images .loading {
+    border: 2px dashed #23282d;
+    min-height: 150px;
+    min-width: 300px;
+    position: relative;
+}*/
+
+/*.free-images .inner {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}*/
+
+.free-images .user-image-url {
+    display: none;
+}
+
+.free-images .image:hover .meta {
+    bottom: 0;
+}
+
+.free-images .meta {
+    padding: 10px 20px;
+    margin: 0 5px;
+    bottom: -4px;
+}
+
+.free-images .image.downloading .top-meta,
+.free-images .image:hover .top-meta {
+    top: 0%;
+}
+
+.free-images-sizes {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    color: #000;
+    padding: 2em 3em;
+    z-index: 9999;
+}
+
+.free-images-sizes ul {
+    margin: 0;
+    border: 1px solid #e0e0e0;
+}
+
+.free-images-sizes li > span {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.free-images-sizes h3 {
+    margin-top: 0;
+}
+
+.download-size {
+    cursor: pointer;
+}
+
+.free-images-sizes li:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+.free-images-sizes li {
+    padding: 5px 10px;
+}
+
+.free-images-sizes li:last-child {
+    margin-bottom: 0;
+}
+
+.free-images .wp-header .links a {
+    padding: 0;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.free-images .search-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.free-images .wp-header .links i {
+    width: auto;
+    font-size: initial;
+    margin-left: 5px;
+}
+
+.free-images .safesearch {
+    margin-left: 10px;
+}
+
+#free-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.free-images .loader {
+    border: 8px solid #c1c1c1;
+    border-radius: 50%;
+    border-top: 8px solid #72777c;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: 70px auto 0 auto;
+    right: 0;
+    position: absolute;
+    left: 0;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/**
+ * Color Filter
+ */
+.filter-colors {
+            flex-wrap: wrap;
+    align-content: flex-start;
+    width: 204px;
+    display: inline-block;
+        }
+        .filter-color > span:first-child {
+            display: inline-block;
+            padding: 10px;
+            float: none;
+        }
+        .filter-color-grayscale {
+            background: lightgray;
+        }
+        .filter-color-transparent {
+            background: transparent;
+        }
+        .filter-color-red {
+            background: red;
+        }
+        .filter-color-orange {
+            background: orange;
+        }
+        .filter-color-yellow {
+            background: yellow;
+        }
+        .filter-color-green {
+            background: green;
+        }
+        .filter-color-turquoise {
+            background: turquoise;
+        }
+        .filter-color-blue {
+            background: blue;
+        }
+        .filter-color-lilac {
+            background: #c8a2c8;
+        }
+        .filter-color-pink {
+            background: pink;
+        }
+        .filter-color-white {
+            background: white;
+        }
+        .filter-color-gray {
+            background: gray;
+        }
+        .filter-color-black {
+            background: black;
+        }
+        .filter-color-brown {
+            background: brown;
+        }
+.selected-color {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+}
+.filter-color {
+    border: 1px solid #c6c4c4;
+    margin: 2px;
+    padding: 0px;
+    display: inline-flex;
+    float: none;
+}
+
+.filter-color-label {
+    display: none;
+}
+
+.filter-color-selected {
+    margin-left: 15px;
+}
+.filter-colors-wrap {
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    left: 15px;
+    padding: 15px;
+    top: 48px;
+    z-index: 9999999;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    height: 51px;
+}
+
+.filter-color-wrap {
+    padding: 15px;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+}

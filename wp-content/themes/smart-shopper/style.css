@@ -1,0 +1,109 @@
+/*
+Theme Name: Smart Shopper
+Author: ceylonthemes
+Author URI: https://www.ceylonthemes.com
+Version: 1.0.4
+Template: ecommerce-star
+Tested up to: 5.5.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description: Smart Shopper is a can be used to develop business, WooCommerce or Easy Digital download shopping cart, Store front, Hotel, Agency Portfolio and others web sites. Smart Shopper has Options like WooCommerce integration, Header & footer Customization, Shop page customizations, Typography features. Also, Theme is compatible with YITH WooCommerce Wishlist, YITH WooCommerce Compare, WooCommerce Variation Swatches and other popular WooCommerce plugins. For more information about Smart Shopper please go to https://www.ceylonthemes.com/product/wordpress-ecommerce-theme
+Text Domain: smart-shopper
+Tags: e-commerce, blog, theme-options, full-width-template, one-column, two-columns, portfolio, left-sidebar, right-sidebar, flexible-header, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready
+*/
+
+
+/*
+ * secondary Widget code
+ */
+ 
+#secondary .widget-title {
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0 8px 0 15px;
+	position: relative;
+	text-transform: uppercase;
+	width: auto;
+	height: 40px;
+	display: inline-block;
+	background-color: transparent;
+	color: #474343;
+	border-bottom: 0px;
+}
+
+
+
+#secondary.woocomemrce-widgets .widget-title {
+    margin-bottom: 10px;
+}
+
+#secondary .widget {
+    padding: 0px 15px 15px 10px;
+}
+
+#secondary.woocomemrce-widgets .widget-title {
+    border-bottom: initial;
+    line-height: 18px;
+}
+
+#secondary.woocomemrce-widgets .woocommerce.widget_product_search {
+	padding-top:15px;
+}
+
+#secondary .widget ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 5px;
+}
+
+#secondary .widget_search {
+	border:0px;
+}
+
+/*
+ * News widget
+ */
+
+.widget .adv-recent-posts a img {
+	max-width:120px;
+}
+
+
+
+.my-yith-wishlist .compare-button a::before {
+    content: "\f0ec";
+    font-family: fontawesome;
+    font-size: 16px;
+}
+
+.wp-calendar-table {
+	width:100%;
+}
+
+.product-navigation .navigation-name {
+    background-color: #2494f7;
+    color: #fff;
+}
+.product-navigation .navigation-name a {
+    color: #fff;
+}
+.product-navigation .navigation-name a:hover,
+.product-navigation .navigation-name a:focus {
+    color: #000;
+}
+
+
+.entry-container .entry-content a {
+	text-decoration:underline;
+}
+
+.entry-container .entry-summary a {
+	text-decoration:underline;
+}
+
+.entry-container .entry-summary .more-link::after {
+    content: "";
+}

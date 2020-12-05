@@ -1,0 +1,15 @@
+/*
+Theme Name: Agnosticoder Child Theme
+Theme URI: http://localhost:8000/
+Description: This is a child theme of Twenty Nineteen
+Author: Sani
+Author URI: https://agnosticoder.me
+Template: twentynineteen
+Version: 0.1
+ */
+
+ @import url("../twentynineteen/style.css");
+
+ body{
+     background-color: rgb(87, 74, 74);
+ }
